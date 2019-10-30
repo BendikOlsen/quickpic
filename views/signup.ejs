@@ -1,0 +1,43 @@
+<% include partials/header %>
+    <div class="card">
+
+        <div class="card-body">
+
+            <form id="signup" name="signup" method="POST" action="/signup">
+                <p class="h4 text-center py-4">Sign Up</p>
+
+                <!-- Material input email-->
+                <div class="text-center md-form">
+                    <i class="fa fa-envelope prefix grey-text"></i>
+                    <label for="materialFormCardNameEx" class="font-weight-light">EmailAddress</label>
+                    <input class="text" name="email" type="email"><br>
+                </div>
+
+
+                <!-- Matiral input text-->
+                <div class="text-center md-form">
+                    <i class="fa fa-user prefix grey-text"></i>
+                    <label for="materialFormCardNameEx" class="font-weight-light">Firstname</label>
+                    <input name="firstname" type="text"><br>
+                </div>
+
+                <div class="text-center md-form">
+                    <label for="materialFormCardNameEx" class="font-weight-light">Lastname</label>
+                    <input name="lastname" type="text"><br>
+                </div>
+
+                <div class="text-center md-form">
+                    <i class="fa fa-lock prefix grey-text"></i>
+                    <label for="materialFormCardPasswordEx" class="font-weight-light">Password</label>
+                    <input name="password" type="password"><br>
+                </div>
+
+                <div class="text-center py-4 mt-3">
+                    <input class="btn-info" type="submit" value="Sign Up">
+                </div>
+
+            </form>
+        </div>
+    </div>
+    
+<% include partials/footer %>
