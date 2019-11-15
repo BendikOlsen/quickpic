@@ -9,7 +9,8 @@ Created with Node.js, Express.js and Sequelize
 * [Setup](#setup)
 
 ## General info
-This project is a simple but scalable login web application. 
+* Project is still under work
+This project is a picture(url) sharing app with login and authentication.
 
 ## Technologies
 This project is created with:
