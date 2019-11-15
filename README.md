@@ -9,8 +9,8 @@ Created with Node.js, Express.js and Sequelize
 * [Setup](#setup)
 
 ## General info
-* Project is still under work
-This project is a picture(url) sharing app with login and authentication.
+* This project is a picture(url) sharing app with login and authentication.
+* Project is still under work.
 
 ## Technologies
 This project is created with:
